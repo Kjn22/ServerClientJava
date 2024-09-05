@@ -106,6 +106,7 @@ public class Client implements ActionListener {
             f.invalidate();
             f.validate();
         } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 
